@@ -31,6 +31,12 @@
 		7843B2742C2DCC6B00C60D13 /* ExhibitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7843B2732C2DCC6B00C60D13 /* ExhibitsViewModel.swift */; };
 		7843B2772C2DCD5200C60D13 /* AddHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7843B2762C2DCD5200C60D13 /* AddHistory.swift */; };
 		7843B27A2C2DE05D00C60D13 /* ColDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7843B2792C2DE05D00C60D13 /* ColDetail.swift */; };
+		7853FCB02C36AD9200956529 /* d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FCAF2C36AD9200956529 /* d.swift */; };
+		7853FCB22C36AD9600956529 /* s.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FCB12C36AD9600956529 /* s.swift */; };
+		7853FCB42C36AD9900956529 /* w.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FCB32C36AD9900956529 /* w.swift */; };
+		7853FCB72C36ADFF00956529 /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7853FCB62C36ADFF00956529 /* ApphudSDK */; };
+		7853FCBA2C36AE0800956529 /* YandexMobileMetrica in Frameworks */ = {isa = PBXBuildFile; productRef = 7853FCB92C36AE0800956529 /* YandexMobileMetrica */; };
+		7853FCBC2C36AE0800956529 /* YandexMobileMetricaCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 7853FCBB2C36AE0800956529 /* YandexMobileMetricaCrashes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +66,9 @@
 		7843B2732C2DCC6B00C60D13 /* ExhibitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitsViewModel.swift; sourceTree = "<group>"; };
 		7843B2762C2DCD5200C60D13 /* AddHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistory.swift; sourceTree = "<group>"; };
 		7843B2792C2DE05D00C60D13 /* ColDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColDetail.swift; sourceTree = "<group>"; };
+		7853FCAF2C36AD9200956529 /* d.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d.swift; sourceTree = "<group>"; };
+		7853FCB12C36AD9600956529 /* s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s.swift; sourceTree = "<group>"; };
+		7853FCB32C36AD9900956529 /* w.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = w.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7853FCBC2C36AE0800956529 /* YandexMobileMetricaCrashes in Frameworks */,
+				7853FCB72C36ADFF00956529 /* ApphudSDK in Frameworks */,
+				7853FCBA2C36AE0800956529 /* YandexMobileMetrica in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +158,9 @@
 				7843B25E2C2DA80B00C60D13 /* CoreDataStack.swift */,
 				7843B2602C2DA81100C60D13 /* Array.swift */,
 				7843B2622C2DA81900C60D13 /* CoreModel.xcdatamodeld */,
+				7853FCAF2C36AD9200956529 /* d.swift */,
+				7853FCB12C36AD9600956529 /* s.swift */,
+				7853FCB32C36AD9900956529 /* w.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -265,6 +280,11 @@
 			dependencies = (
 			);
 			name = App655;
+			packageProductDependencies = (
+				7853FCB62C36ADFF00956529 /* ApphudSDK */,
+				7853FCB92C36AE0800956529 /* YandexMobileMetrica */,
+				7853FCBB2C36AE0800956529 /* YandexMobileMetricaCrashes */,
+			);
 			productName = App655;
 			productReference = 7843B2312C2DA78D00C60D13 /* App655.app */;
 			productType = "com.apple.product-type.application";
@@ -293,6 +313,10 @@
 				Base,
 			);
 			mainGroup = 7843B2282C2DA78D00C60D13;
+			packageReferences = (
+				7853FCB52C36ADFF00956529 /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+				7853FCB82C36AE0800956529 /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */,
+			);
 			productRefGroup = 7843B2322C2DA78D00C60D13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -323,17 +347,20 @@
 				7843B2572C2DA7ED00C60D13 /* R1.swift in Sources */,
 				7843B2372C2DA78D00C60D13 /* ContentView.swift in Sources */,
 				7843B2772C2DCD5200C60D13 /* AddHistory.swift in Sources */,
+				7853FCB22C36AD9600956529 /* s.swift in Sources */,
 				7843B25B2C2DA7FB00C60D13 /* R3.swift in Sources */,
 				7843B2552C2DA7E900C60D13 /* Not.swift in Sources */,
 				7843B26B2C2DA84A00C60D13 /* ExhibitsView.swift in Sources */,
 				7843B2532C2DA7E300C60D13 /* Reviews.swift in Sources */,
 				7843B2512C2DA7DD00C60D13 /* U1.swift in Sources */,
+				7853FCB42C36AD9900956529 /* w.swift in Sources */,
 				7843B2742C2DCC6B00C60D13 /* ExhibitsViewModel.swift in Sources */,
 				7843B25F2C2DA80B00C60D13 /* CoreDataStack.swift in Sources */,
 				7843B2352C2DA78D00C60D13 /* App655App.swift in Sources */,
 				7843B26D2C2DA85200C60D13 /* SettingsView.swift in Sources */,
 				7843B2692C2DA84100C60D13 /* CollectionsView.swift in Sources */,
 				7843B2722C2DAFDC00C60D13 /* AddCollection.swift in Sources */,
+				7853FCB02C36AD9200956529 /* d.swift in Sources */,
 				7843B24F2C2DA7D800C60D13 /* LoadingView.swift in Sources */,
 				7843B2612C2DA81100C60D13 /* Array.swift in Sources */,
 				7843B2642C2DA81900C60D13 /* CoreModel.xcdatamodeld in Sources */,
@@ -561,6 +588,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7853FCB52C36ADFF00956529 /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.8;
+			};
+		};
+		7853FCB82C36AE0800956529 /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yandexmobile/metrica-sdk-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7853FCB62C36ADFF00956529 /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7853FCB52C36ADFF00956529 /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+		7853FCB92C36AE0800956529 /* YandexMobileMetrica */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7853FCB82C36AE0800956529 /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetrica;
+		};
+		7853FCBB2C36AE0800956529 /* YandexMobileMetricaCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7853FCB82C36AE0800956529 /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetricaCrashes;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7843B2622C2DA81900C60D13 /* CoreModel.xcdatamodeld */ = {
